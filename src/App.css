@@ -1,38 +1,146 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.ant-layout {
+  height: 100vh !important;
+}
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-content {
+  margin: 0 !important;
+  background-color: #222222 !important;
+  color: #ffffff !important;
+  overflow-y: auto;
+}
+
+.anticon svg {
+  font-size: 20px !important;
+  color: #ffffff !important;
+}
+
+.ant-layout-header {
+  background-color: #222222 !important;
+  border-bottom: 1px solid #111111;
+}
+
+.header-text {
+  font-family: "Mouse Memoirs", sans-serif;
+  margin-left: 30px;
+  font-size: 35px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.logo {
+  background-color: #222222 !important;
+}
+
+.ant-menu {
+  background-color: #222222 !important;
+  color: #ffffff !important;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border-right: 1px solid #111111 !important;
+}
+
+.ant-layout-sider-children {
+  background-color: #222222 !important;
+  border-right: 1px solid #111111 !important;
+}
+
+.ant-card-body {
+  padding: 0 !important;
+}
+
+.card-wrapper {
+  width: 220px !important;
+  height: 250px !important;
+  background-color: #111111;
+  border: 1px solid #111111 !important;
+}
+
+.card-wrapper h1 {
+  color: #ffffff;
   text-align: center;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-wrapper p {
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-wrapper .read-more {
+  width: 100% !important;
+  background-color: red !important;
+  border: none !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
+  overflow-x: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.ant-input {
+  background-color: #000000 !important;
+  color: #bababa;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: rgb(174, 78, 78) !important;
+  color: #ffffff !important;
+}
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid red !important;
+}
+
+.ant-menu-item-selected a,
+.ant-menu-item-selected a:hover {
+  color: #ffffff;
+}
+
+.ant-menu-item a {
+  color: #ffffff !important;
+}
+
+.rows {
+  display: flex;
+  gap: 20px;
+  width: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
