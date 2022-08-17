@@ -42,11 +42,11 @@ export const Dashboard = () => {
             style={{
               width: 500,
               marginLeft: 200,
-              backgroundColor: "#000000",
+              backgroundColor: "rgb(14, 47, 105)",
               borderColor: "#333333",
               padding: 10,
             }}
-            suffix={<SearchOutlined />}
+            suffix={<SearchOutlined style={{color: 'white'}} />}
           />
         </Header>
         <Content
@@ -62,7 +62,7 @@ export const Dashboard = () => {
               fontWeight: 500,
               width: "100%",
               padding: 10,
-              backgroundColor: "#111111",
+              backgroundColor: "rgb(14, 47, 105)",
             }}
           >
             POLITICS
@@ -78,7 +78,7 @@ export const Dashboard = () => {
               fontWeight: 500,
               width: "100%",
               padding: 10,
-              backgroundColor: "#111111",
+              backgroundColor: "rgb(14, 47, 105)",
             }}
           >
             COUNTRY
@@ -93,7 +93,7 @@ export const Dashboard = () => {
               fontWeight: 500,
               width: "100%",
               padding: 10,
-              backgroundColor: "#111111",
+              backgroundColor: "rgb(14, 47, 105)",
             }}
           >
             FOOTBALL
@@ -109,7 +109,7 @@ export const Dashboard = () => {
               fontWeight: 500,
               width: "100%",
               padding: 10,
-              backgroundColor: "#111111",
+              backgroundColor: "rgb(14, 47, 105)",
             }}
           >
             APPLE

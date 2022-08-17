@@ -44,7 +44,7 @@ export const Politic = () => {
             style={{
               width: 500,
               marginLeft: 200,
-              backgroundColor: "#000000",
+              backgroundColor: "rgb(14, 47, 105)",
               borderColor: "#333333",
               padding: 10,
             }}

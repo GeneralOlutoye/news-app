@@ -44,8 +44,8 @@ export const Apples = () => {
             style={{
               width: 500,
               marginLeft: 200,
-              backgroundColor: "#000000",
-              borderColor: "#333333",
+              backgroundColor: "rgb(14, 47, 105)",
+              borderColor: "#fff",
               padding: 10,
             }}
             suffix={<SearchOutlined />}

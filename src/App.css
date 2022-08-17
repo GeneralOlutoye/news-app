@@ -22,28 +22,29 @@
 #components-layout-demo-custom-trigger .logo {
   height: 32px;
   margin: 16px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgb(14, 47, 105);
+  /* background: rgba(255, 255, 255, 0.3); */
 }
 
 .site-layout .site-layout-background {
-  background: #fff;
+  background: rgb(14, 47, 105);
 }
 
 .ant-layout-content {
   margin: 0 !important;
-  background-color: #222222 !important;
-  color: #ffffff !important;
+  background-color:  #cfe2f3 !important;
+  color: #000000 !important;
   overflow-y: auto;
 }
 
 .anticon svg {
   font-size: 20px !important;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .ant-layout-header {
-  background-color: #222222 !important;
-  border-bottom: 1px solid #111111;
+  background-color: #cfe2f3 !important;
+  border-bottom: 1px solid rgb(14, 47, 105);
 }
 
 .header-text {
@@ -51,27 +52,28 @@
   margin-left: 30px;
   font-size: 35px;
   font-weight: 500;
-  color: #ffffff;
+  color: rgb(14, 47, 105);
+  background-color: #cfe2f3!important;
 }
 
 .logo {
-  background-color: #222222 !important;
+  background-color: #cfe2f3 !important;
 }
 
 .ant-menu {
-  background-color: #222222 !important;
-  color: #ffffff !important;
+  background-color: #cfe2f3 !important;
+  color: #000000 !important;
 }
 
 .ant-menu-inline,
 .ant-menu-vertical,
 .ant-menu-vertical-left {
-  border-right: 1px solid #111111 !important;
+  border-right: 1px solid rgb(14, 47, 105) !important;
 }
 
 .ant-layout-sider-children {
-  background-color: #222222 !important;
-  border-right: 1px solid #111111 !important;
+  background-color: rgb(14, 47, 105) !important;
+  border-right: 1px solid rgb(14, 47, 105) !important;
 }
 
 .ant-card-body {
@@ -81,24 +83,26 @@
 .card-wrapper {
   width: 220px !important;
   height: 250px !important;
-  background-color: #111111;
-  border: 1px solid #111111 !important;
+  background-color: #cfe2f3;
+  border: 1px solid rgb(14, 47, 105) !important;
 }
 
 .card-wrapper h1 {
-  color: #ffffff;
+  color: rgb(14, 47, 105);
   text-align: center;
   text-transform: uppercase;
 }
 
 .card-wrapper p {
-  color: #ffffff;
+  color: rgb(14, 47, 105);
+  padding-left: 5px;
 }
 
 .card-wrapper .read-more {
   width: 100% !important;
-  background-color: red !important;
+  background-color: rgb(14, 47, 105) !important;
   border: none !important;
+  font-weight: 500;
 }
 
 .row {
@@ -115,18 +119,18 @@
 }
 
 .ant-input {
-  background-color: #000000 !important;
-  color: #bababa;
+  background-color: #fff !important;
+  color: #000000;
 }
 .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
-  background-color: rgb(174, 78, 78) !important;
+  background-color: rgb(14, 47, 105) !important;
   color: #ffffff !important;
 }
 .ant-menu-vertical .ant-menu-item::after,
 .ant-menu-vertical-left .ant-menu-item::after,
 .ant-menu-vertical-right .ant-menu-item::after,
 .ant-menu-inline .ant-menu-item::after {
-  border-right: 3px solid red !important;
+  border-right: 3px solid rgb(14, 47, 105) !important;
 }
 
 .ant-menu-item-selected a,
@@ -135,7 +139,7 @@
 }
 
 .ant-menu-item a {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .rows {
